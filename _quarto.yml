@@ -2,13 +2,15 @@ project:
   type: book
 
 book:
-  title: "bioacoustic_documentation"
-  author: "Norah Jones"
+  title: "Documentation for Sierra Nevada Passive Acoustic Monitoring Program"
+  author: "Jay Winiarski"
   date: "11/4/2024"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - fieldwork.qmd
+    - data_storage.qmd
+    - data_processing.qmd
+    - csow_bdow_vetting.qmd
     - references.qmd
 
 bibliography: references.bib
